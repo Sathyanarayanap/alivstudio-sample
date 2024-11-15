@@ -4,8 +4,6 @@
 body{
     font-family: Poppins;
     margin: 0;
-    background-color: #000;
-    color: rgb(244, 245, 248);
 }
 
 svg{
@@ -196,4 +194,48 @@ header .menu{
     .arrows{
         top: 10%;
     }
+}
+
+/* Aboutus text */
+.aboutus-text{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.micheal-img{
+    width: 150px;
+    display: inline-block;
+}
+
+.micheal{
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.quote{
+    display: inline-block;
+    vertical-align: top;
+    /* width: 300px; */
+}
+
+.sfx-icon{
+    background-color: #eee;
+    width: 100px;
+    border-radius: 33%;
+}
+
+.socialmedia-icon{
+    background-color: #eee;
+    width: 100px;
+    border-radius: 33%;
+}
+
+.videoediting-icon{
+    background-color: #eee;
+    width: 100px;
+    border-radius: 33%;
 }
