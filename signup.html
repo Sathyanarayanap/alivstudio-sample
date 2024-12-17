@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>DYGTL Synapse</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-light navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="./alivcinema.png" /></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index copy.html">Home</a></li>
+            <li><a  href="course.html">COURSE</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a  href="team.html">TEAM</a></li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+        <!-- <div class="signup-form">
+            <form action="/action_page.php">
+                
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+            
+            <div class="form-section">
+                <label for="email"><b>Email</b></label>
+                <input class="ele" type="text" placeholder="Enter Email" name="email" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                </label>
+                
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                <div class="btn">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+
+            </form>
+        </div> -->
+
+
+     <section class="vh-100">
+            <div class="container h-100" style="display: grid; grid-template-columns: 1fr 1000px;">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-lg-12 col-xl-11">
+                  <div class="card text-black" style="border-radius: 25px;">
+                    <div class="card-body p-md-5">
+                      <div class="row justify-content-center">
+                        <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+          
+                          <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+          
+                          <form class="mx-1 mx-md-4">
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                                <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                                    <label class="form-label" for="form3Example1c">Name</label>
+                                    <input type="text" id="form3Example1c" class="form-control" placeholder="Enter your name" style="margin-bottom: 10px;" />
+                                </div>
+                              </div>
+
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                              <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                                    <label class="form-label" for="form3Example1c">Mobile Number</label>
+                                    <input type="text" id="form3Example1c" class="form-control" placeholder="Enter your mobile number"  style="margin-bottom: 5px;" />
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary" style="margin-bottom: 10px;">Verify</button>
+                              </div>
+                            </div>
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                              <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                                    <label class="form-label" for="form3Example3c">Email</label>
+                                    <input type="email" id="form3Example3c" class="form-control" placeholder="Enter your email id" style="margin-bottom: 10px;" />
+                              </div>
+                            </div>
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                              <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                                    <label class="form-label" for="form3Example4c">Password</label>
+                                    <input type="password" id="form3Example4c" class="form-control" placeholder="Enter your password" style="margin-bottom: 10px;" />
+                              </div>
+                            </div>
+          
+                            <div class="d-flex flex-row align-items-center mb-4">
+                              <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                              <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                                    <label class="form-label" for="form3Example4cd">Repeat your password</label>
+                                    <input type="password" id="form3Example4cd" class="form-control" placeholder="Re-Enter your password" />
+                              </div>
+                            </div>
+          
+                            <div class="form-check d-flex justify-content-center mb-5" style="margin-top: 10px;">
+                                    <label class="form-check-label" for="form2Example3">
+                                    <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
+                                I agree all statements in <a href="#!">Terms of service</a>
+                              </label>
+                            </div>
+          
+                            <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4" style="margin-top: 10px;">
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Cancel</button>
+                                    <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+          
+                          </form>
+          
+                        </div>
+                        <!-- <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+          
+                          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                            class="img-fluid" alt="Sample image">
+          
+                        </div> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+    </body>
+</html>

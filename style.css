@@ -6,6 +6,27 @@ body{
     margin: 0;
 }
 
+.navbar-default .navbar-nav>li>a{color: #28211e !important;}
+
+.nav.navbar-nav{
+    color: #0a0909;
+}
+.navbar-light {
+    background-color: #FEB82D !important;
+    border: none !important;
+    border-width:0!important;
+}
+
+.navbar-inverse .navbar-nav>li>a{color:rgb(29, 19, 10)} /* Navbar text color */
+
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{color:#FEB82D;background-color:#01147A}
+
+.content-header{
+    color: #FEB82D; 
+    text-align: center;
+}
+
+
 svg{
     width: 25px;/*changes made from 50px to 25px*/
 }
@@ -375,3 +396,10 @@ p {
             max-width: 90%;
         }
   }
+
+
+  /*signup form*/
+
+  
+
+  
